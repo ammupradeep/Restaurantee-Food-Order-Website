@@ -1,0 +1,172 @@
+/* 
+    Author: Ammukutty Pradeep;
+    Theme: Restaurant Food Order;
+    version: 1.0;
+*/
+
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    /* border: 1px solid black; */
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+.tbl-30{
+    width: 30%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: #f1f2f6;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+
+.btn-secondary{
+    background-color: #7ebd9f;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+
+.btn-danger{
+    background-color: #ff6b81;
+    padding: 1%;
+    color: #f1f2f6;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-danger:hover{
+    background-color: #ff4757;
+}
+
+button{
+    border: none;
+}
+
+.success{
+    padding: 1%;
+    color: #fff;
+    background-color: #2ed573;
+    border-radius: 5px;
+}
+
+.error{
+    padding: 1%;    
+    color: #fff;
+    background-color: #ba1321;
+    border-radius: 5px;
+}
+
+/* CSS for Menu */
+.menu{
+    border-bottom: 1px solid #ccc;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+}
+.menu ul li a:hover{
+    color: #ff4757;
+}
+
+/* CSS for Main Content */
+
+.main-content{
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: #fff;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/* CSS for Footer */
+
+.footer{
+    background-color: #ff4757;
+    color: #fff;
+}
+
+/* CSS for Login */
+
+.login{
+    width: 20%;
+    margin: 10% auto;
+    padding: 8%;
+    font-size: large;
+    background-color: #ff4757;
+    color:#f1f2f6;
+    border-radius: 5px;
+}
+
+input{
+    border-radius: 3px;
+    padding: 2%;
+    border: none;
+}
+
+select{
+    border-radius: 3px;
+    padding: 2%;
+    border: none;
+}
+
